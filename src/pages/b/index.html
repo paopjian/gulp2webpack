@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这里是页面B</title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.options.templateURL.commonCSS %>" />
+</head>
+<body>
+<div>
+    <p>这里是页面<span>B</span> </p>
+</div>
+
+<script type="text/javascript" src="../../common-source/js/lib/vue/vue.2.6.11.js"></script>
+<script type="text/javascript" src="../../common-source/js/lib/jQuery/jQuery.v1.11.1.min.js"></script>
+
+<script type="text/javascript" src="<%= htmlWebpackPlugin.options.templateURL.appJs %>"></script>
+</body>
+</html>
