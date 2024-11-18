@@ -11,6 +11,14 @@ patterns = [
         from: './src/js/lib',
         to: 'common-source/js/lib'
     },
+    // {
+    //     from: './src/js/data',
+    //     to: 'common-source/js/data',
+    // },
+    // {
+    //     from: './src/js/mixins',
+    //     to: 'common-source/js/mixins'
+    // }
 ];
 
 // 生成复制指令数组
